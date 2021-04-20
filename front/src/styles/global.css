@@ -1,0 +1,70 @@
+:root {
+    --white: #fff;
+    --primaryColor: #2D5B45;
+    --ligthColorGreen: #EDFFE4;
+    --red: #EA2027;
+    --gray: #E1E1E1;
+    --grayDark: #707070;
+    --darkGreen: #1A3F2D;
+    --secondaryColor: #548882;
+    --backgroundDegrade: linear-gradient(180deg, #548882 0%, rgb(92, 154, 98) 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    list-style: none;
+}
+
+html, body {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.buttonCreate {
+    display: flex;
+    background-color: var(--primaryColor);
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: var(--white);
+    cursor: pointer;
+
+}
+
+
+
+
+
+@media (max-width: 720px) {
+    html {
+        font-size: 93.75%;
+    }
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width: 720px) and (max-width: 1099px) {
+    html {
+        font-size: 87.5%;
+    }
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+} 
+
+
+
+@media(min-width: 1210px) {
+    html {
+        font-size: 93.75%;
+    }
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+} 
